@@ -1,0 +1,36 @@
+kode,nama,pos_saldo,pos_laporan
+1110,Kas,Db,NRC
+1120,Bank,Db,NRC
+1130,Piutang Usaha,Db,NRC
+1140,Persediaan Hasil Kebun,Db,NRC
+1141,Persediaan Hasil Pengepulan,Db,NRC
+1142,Persediaan Pupuk,Db,NRC
+1143,Persediaan Pestisida,Db,NRC
+1144,Persediaan Bibit Tanaman,Db,NRC
+1210,Tanah Kebun,Db,NRC
+1220,Gudang,Db,NRC
+1221,Akm. Penyusutan Gudang,Kr,NRC
+1230,Gubuk Kebun,Db,NRC
+1231,Akm. Penyusutan Gubuk Kebun,Kr,NRC
+1240,Tanaman Belum Menghasilkan,Db,NRC
+1250,Tanaman Menghasilkan,Db,NRC
+1251,Akm. Penyusutan Tanaman Menghasilkan,Kr,NRC
+1260,Peralatan Kebun,Db,NRC
+1261,Akm. Penyusutan Peralatan,Kr,NRC
+2110,Utang Usaha,Kr,NRC
+2120,Utang Gaji,Kr,NRC
+2130,Utang Bank,Kr,NRC
+3110,Modal,Kr,NRC
+3120,Prive,Db,NRC
+4110,Penjualan Hasil Kebun,Kr,LR
+4120,Penjualan Hasil Pengepulan,Kr,LR
+4130,Pendapatan Lain-Lain,Kr,LR
+5110,HPP Hasil Kebun (tidak dipakai aturan default),Db,LR
+5120,HPP Hasil Pengepulan,Db,LR
+5130,Kerugian Persediaan,Db,LR
+6110,Beban Gaji Karyawan,Db,LR
+6120,Beban Perawatan dan Kebersihan,Db,LR
+6130,Beban Listrik dan Air,Db,LR
+6140,Beban Penyusutan,Db,LR
+6150,Beban Transportasi,Db,LR
+6160,Beban Lain-Lain,Db,LR

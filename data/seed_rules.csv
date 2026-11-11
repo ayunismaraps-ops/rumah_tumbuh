@@ -1,0 +1,27 @@
+jenis_transaksi,menu,pembayaran_valid,akun_debit,akun_kredit,butuh_tujuan,butuh_aset,butuh_barang,catatan
+Jual Hasil Kebun,Pemasukan,Tunai|Transfer Bank|Piutang,{PEMBAYARAN},4110,0,0,0,Tanpa HPP
+Jual Hasil Pengepulan,Pemasukan,Tunai|Transfer Bank|Piutang,{PEMBAYARAN},4120,0,0,0,Otomatis ada jurnal HPP
+Terima Pelunasan Piutang,Pemasukan,Tunai|Transfer Bank,{PEMBAYARAN},1130,0,0,0,
+Pendapatan Lain-Lain,Pemasukan,Tunai|Transfer Bank|Piutang,{PEMBAYARAN},4130,0,0,0,
+Beli Pupuk,Pengeluaran,Tunai|Transfer Bank|Utang,1142,{PEMBAYARAN},0,0,0,
+Beli Pestisida,Pengeluaran,Tunai|Transfer Bank|Utang,1143,{PEMBAYARAN},0,0,0,
+Beli Bibit,Pengeluaran,Tunai|Transfer Bank|Utang,1144,{PEMBAYARAN},0,0,0,
+Beli Hasil Pengepulan,Pengeluaran,Tunai|Transfer Bank|Utang,1141,{PEMBAYARAN},0,0,0,Menambah stok
+Beli Peralatan,Pengeluaran,Tunai|Transfer Bank|Utang,1260,{PEMBAYARAN},0,0,0,
+Bayar Upah/Gaji,Pengeluaran,Tunai|Transfer Bank|Utang,{TUJUAN:6110},{PEMBAYARAN:2120},1,0,0,
+Perawatan & Kebersihan,Pengeluaran,Tunai|Transfer Bank|Utang,{TUJUAN:6120},{PEMBAYARAN},1,0,0,
+Listrik & Air,Pengeluaran,Tunai|Transfer Bank|Utang,6130,{PEMBAYARAN},0,0,0,
+Transportasi,Pengeluaran,Tunai|Transfer Bank|Utang,6150,{PEMBAYARAN},0,0,0,
+Beban Lain-Lain,Pengeluaran,Tunai|Transfer Bank|Utang,6160,{PEMBAYARAN},0,0,0,
+Bayar Utang Usaha,Pengeluaran,Tunai|Transfer Bank,2110,{PEMBAYARAN},0,0,0,
+Bayar Utang Gaji,Pengeluaran,Tunai|Transfer Bank,2120,{PEMBAYARAN},0,0,0,
+Setoran Modal,Transaksi Lainnya,Tunai|Transfer Bank,{PEMBAYARAN},3110,0,0,0,
+Prive,Transaksi Lainnya,Tunai|Transfer Bank,3120,{PEMBAYARAN},0,0,0,
+Terima Pinjaman Bank,Transaksi Lainnya,Tunai|Transfer Bank,{PEMBAYARAN},2130,0,0,0,
+Bayar Utang Bank,Transaksi Lainnya,Tunai|Transfer Bank,2130,{PEMBAYARAN},0,0,0,
+Pakai Pupuk,Transaksi Lainnya,-,{TUJUAN:6120},1142,1,0,0,
+Pakai Pestisida,Transaksi Lainnya,-,{TUJUAN:6120},1143,1,0,0,
+Pakai Bibit,Transaksi Lainnya,-,{TUJUAN:6120},1144,1,0,0,
+Kerugian Persediaan,Transaksi Lainnya,-,5130,{BARANG},0,0,1,
+Penyusutan,Transaksi Lainnya,-,6140,{ASET},0,1,0,
+Tanaman Mulai Menghasilkan,Transaksi Lainnya,-,1250,1240,0,0,0,Pindah dari 1240 ke 1250
