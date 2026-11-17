@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+db/*.db
+db/*.db-shm
+db/*.db-wal
+.env
+rumah_tumbuh_startup_error.log

@@ -1,5 +1,4 @@
-streamlit>=1.37
-bcrypt>=4.0
-openpyxl>=3.1
+Flask>=3.0
+PyJWT>=2.8
+PySide6==6.12.0
 reportlab>=4.0
-pytest>=8.0
